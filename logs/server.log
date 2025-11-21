@@ -1,0 +1,62 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 335 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.9.250:3000/
+12:03:49 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Comparison.jsx:38:102: ERROR: Expected identifier after "http:" in namespaced JSX name
+12:03:49 PM [vite] ✨ new dependencies optimized: gsap, gsap/ScrollTrigger
+12:03:49 PM [vite] ✨ optimized dependencies changed. reloading
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-XPR23Y44.js?v=051fa835" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+12:03:50 PM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/Comparison.jsx:38:102: ERROR: Expected identifier after "http:" in namespaced JSX name
+12:03:50 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Comparison.jsx:38:102: ERROR: Expected identifier after "http:" in namespaced JSX name
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Comparison.jsx:38:102
+  
+  Expected identifier after "http:" in namespaced JSX name
+  36 |                  <div className="mt-2 h-3 rounded-full bg-slate-100 relative overflow-hidden">
+  37 |                    <div className="absolute left-0 top-0 h-full bg-emerald-500 co2-bar" style={{ width: '60%' }} />
+  38 |                    <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"160\" height=\"12\"><circle cx=\"8\" cy=\"6\" r=\"4\" fill=\"%23cbd5e1\"/></svg>')] opacity-60" />
+     |                                                                                                        ^
+  39 |                  </div>
+  40 |                </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+12:04:13 PM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/Comparison.jsx:38:102: ERROR: Expected identifier after "http:" in namespaced JSX name
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/Comparison.jsx:38:102
+  
+  Expected identifier after "http:" in namespaced JSX name
+  36 |                  <div className="mt-2 h-3 rounded-full bg-slate-100 relative overflow-hidden">
+  37 |                    <div className="absolute left-0 top-0 h-full bg-emerald-500 co2-bar" style={{ width: '60%' }} />
+  38 |                    <div className="absolute inset-0 bg-[url('data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"160\" height=\"12\"><circle cx=\"8\" cy=\"6\" r=\"4\" fill=\"%23cbd5e1\"/></svg>')] opacity-60" />
+     |                                                                                                        ^
+  39 |                  </div>
+  40 |                </div>
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
